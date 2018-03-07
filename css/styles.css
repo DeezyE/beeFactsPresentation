@@ -1,0 +1,57 @@
+html {
+  /* font-size: 14pt; */
+  font-family: "Krona One", sans-serif;
+}
+
+body {
+  margin: 0; /*self centers*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-row: 1fr;
+  overflow: hidden;
+}
+
+body div {
+  background-color: silver;
+  border: 1px solid red;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+p {
+  padding: 1rem;
+}
+
+div.image {
+  background: url("../images/GettyImages-200415242-001-56a520325f9b58b7d0daf222.jpg") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+article {
+  background-color: yellow;
+  border: 1px solid green;
+
+}
+
+footer {
+  padding-left: 10px;
+  text-align: left;
+  background-color: rgb(249, 242, 154);
+  padding-bottom: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+nav {
+  background-color:rgb(249, 242, 154);
+  border: 1px solid violet;
+}
+
+nav a {
+  font-size: 10px;
+}
