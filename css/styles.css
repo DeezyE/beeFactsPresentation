@@ -26,11 +26,59 @@ hr {
 }
 
 p {
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-div.image {
-  background: blue;
+div.image1 {
+  background:url("../images/GettyImages-200415242-001-56a520325f9b58b7d0daf222.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image2 {
+  background:url("../images/Honey_Bees.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image3 {
+  background:url("../images/giantHoneyBee.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image4 {
+  background:url("../images/apisFlorea.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image5 {
+  background:url("../images/flowHive.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image6 {
+  background:url("../images/solitaryBee.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image7 {
+  background:url("../images/blueBandedBee.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image8 {
+  background:url("../images/nativeBeeClose.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image9 {
+  background:url("../images/nativeBees2.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image10 {
+  background:url("../images/spiralBrood.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
 
 article {
