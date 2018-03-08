@@ -12,9 +12,6 @@ body {
   overflow: hidden;
 }
 
-body div {
-}
-
 h1 {
   color: rgba(68, 68, 68, 0.6);
   font-weight: 700;
@@ -56,8 +53,7 @@ div.image5 {
   height: 100vh;
 }
 div.image6 {
-  background:url("../images/beemotel.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
+
   height: 100vh;
 }
 div.image7 {
@@ -110,6 +106,11 @@ div.image16 {
   background-size: cover;
   height: 100vh;
 }
+div.image17 {
+  background:url("../images/whitesquare.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
 
 article {
   padding: 1rem;
@@ -137,4 +138,22 @@ nav a {
   font-size: 10px;
   text-decoration: none;
   color: rgba(#787878)
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  padding-top: 8%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
