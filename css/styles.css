@@ -1,6 +1,7 @@
 html {
-  /* font-size: 14pt; */
-  font-family: "Krona One", sans-serif;
+  font-size: 16pt;
+  font-family: 'Archivo Narrow', sans-serif;
+
 }
 
 body {
@@ -12,12 +13,16 @@ body {
 }
 
 body div {
-  background-color: silver;
-  border: 1px solid red;
 }
 
 h1 {
-  padding: 1rem;
+  color: rgba(68, 68, 68, 0.6);
+  font-weight: 700;
+  margin: 0;
+}
+
+hr {
+  color: rgb(70, 70, 70, .3);
 }
 
 p {
@@ -25,21 +30,18 @@ p {
 }
 
 div.image {
-  background: url("../images/GettyImages-200415242-001-56a520325f9b58b7d0daf222.jpg") center no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background: blue;
 }
 
 article {
-  background-color: yellow;
-  border: 1px solid green;
-
+  padding: 1rem;
+  background: linear-gradient(to bottom, #f6fed3 , white, white);
+  color: rgb(62, 50, 0, .8);
 }
 
 footer {
   padding-left: 10px;
   text-align: left;
-  background-color: rgb(249, 242, 154);
   padding-bottom: 3px;
   position: fixed;
   bottom: 0;
@@ -47,11 +49,8 @@ footer {
 
 }
 
-nav {
-  background-color:rgb(249, 242, 154);
-  border: 1px solid violet;
-}
-
 nav a {
   font-size: 10px;
+  text-decoration: none;
+  color: rgba(#787878)
 }
