@@ -80,6 +80,31 @@ div.image10 {
   background-size: cover;
   height: 100vh;
 }
+div.image11 {
+  background:url("../images/bumblebee.png") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image12 {
+  background:url("../images/killerbee.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image13 {
+  background:url("../images/honeypots.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image14 {
+  background:url("../images/beetongue.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image15 {
+  background:url("../images/nativebeehive.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
 
 article {
   padding: 1rem;
@@ -90,11 +115,17 @@ article {
 footer {
   padding-left: 10px;
   text-align: left;
-  padding-bottom: 3px;
+  padding-bottom: 10px;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  font-size: 10pt;
+}
 
+nav {
+  background: rgba(250, 246, 161, 0.4);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
 }
 
 nav a {
