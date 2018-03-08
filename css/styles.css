@@ -56,7 +56,7 @@ div.image5 {
   height: 100vh;
 }
 div.image6 {
-  background:url("../images/solitaryBee.jpg") center no-repeat; background-size: cover;
+  background:url("../images/beemotel.jpg") center no-repeat; background-size: cover;
   background-size: cover;
   height: 100vh;
 }
@@ -102,6 +102,11 @@ div.image14 {
 }
 div.image15 {
   background:url("../images/nativebeehive.jpg") center no-repeat; background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+div.image16 {
+  background:url("../images/IMG_9597.jpg") center no-repeat; background-size: cover;
   background-size: cover;
   height: 100vh;
 }
