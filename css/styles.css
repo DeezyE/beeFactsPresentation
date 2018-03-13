@@ -1,134 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 html {
   font-size: 16pt;
-  font-family: 'Archivo Narrow', sans-serif;
 
 }
 
 body {
   margin: 0; /*self centers*/
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-row: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 25px;
   overflow: hidden;
+  background: rgb(29, 29, 29);
+  height: 100vh;
 }
 
 h1 {
-  color: rgba(68, 68, 68, 0.6);
-  font-weight: 700;
+  font-family: 'Archivo Narrow', sans-serif;
+  color: rgba(213, 76, 203, 1);
   margin: 0;
+  padding-bottom: 9px;
 }
 
 hr {
-  color: rgb(70, 70, 70, .3);
+  border:none;
+  height: 20px;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #dd2ea5;
+	box-shadow: 0 20px 20px -20px #dd2ea5;
+  margin: -40px auto 10px;
 }
 
 p {
   padding-top: 1rem;
   padding-bottom: 1rem;
+
 }
 
-div.image1 {
-  background:url("../images/GettyImages-200415242-001-56a520325f9b58b7d0daf222.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
+div img {
+  flex: 1;
+  height: 100%;
+  object-fit: cover;
 }
-div.image2 {
-  background:url("../images/Honey_Bees.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image3 {
-  background:url("../images/giantHoneyBee.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image4 {
-  background:url("../images/apisFlorea.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image5 {
-  background:url("../images/flowHive.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image6 {
 
-  height: 100vh;
-}
-div.image7 {
-  background:url("../images/blueBandedBee.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image8 {
-  background:url("../images/nativeBeeClose.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image9 {
-  background:url("../images/nativeBees2.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image10 {
-  background:url("../images/spiralBrood.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image11 {
-  background:url("../images/bumblebee.png") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image12 {
-  background:url("../images/killerbee.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image13 {
-  background:url("../images/honeypots.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image14 {
-  background:url("../images/beetongue.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image15 {
-  background:url("../images/nativebeehive.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image16 {
-  background:url("../images/IMG_9597.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-div.image17 {
-  background:url("../images/whitesquare.jpg") center no-repeat; background-size: cover;
-  background-size: cover;
-  height: 100vh;
+div.image {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  display: flex;
+  width: 100%;
+  height: 100%;
+
 }
 
 article {
+  font-family: 'Archivo Narrow', sans-serif;
+  border-left: 5px solid #f4e521;
   padding: 1rem;
-  background: linear-gradient(to bottom, #f6fed3 , white, white);
-  color: rgb(62, 50, 0, .8);
+  background: rgb(29, 29, 29);
+  color: rgba(46, 198, 213, 0.76);
+  height: 100%;
 }
 
 footer {
-  padding-left: 10px;
-  text-align: left;
-  padding-bottom: 10px;
-  position: fixed;
-  bottom: 0;
+  align-self: flex-end;
+  border-left: 5px solid #f4e521;
+
+  grid-column: 4/5;
+  grid-row: 2/3;
+  height: 100%;
+  align-content: space-around;
+  /* padding-bottom: 5px; */
+  padding-left: 15px;
+  padding-right: 10px;
   font-size: 10pt;
+  background: rgb(29, 29, 29);
 }
 
 nav {
-  background: rgba(250, 246, 161, 0.4);
+  background: rgba(213, 76, 203, .3);
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 10px;
@@ -137,23 +91,35 @@ nav {
 nav a {
   font-size: 10px;
   text-decoration: none;
-  color: rgba(#787878)
+  color: #787878;
+}
+
+a:link {
+  color: #f4e521;
+}
+a:visited {
+  color: #f4e521;
+}
+a:hover {
+  color:  rgba(213, 76, 203, 1)
+}
+a:active {
+
+}
+
+video {
+  width: 100%;
 }
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /*16:9*/
-  padding-top: 8%;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: auto;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  /* position: relative; */
+  /* padding-bottom: 56.25%; */
+  /* padding-top: 8%; */
+  /* height: 0; */
+  /* overflow: hidden; */
 }
